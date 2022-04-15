@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  width: 80%;
+  margin: 350px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+}
+
+.app-container {
+  display: flex;
+}
+
+.initial-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+
+.profile {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.title {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.balance-value {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.rupee {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.sum-rupee {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.denominations-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
